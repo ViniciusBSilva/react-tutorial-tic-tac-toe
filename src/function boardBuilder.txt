@@ -1,0 +1,32 @@
+// function renderSquare(i) {
+//     return <Square />;
+// }
+
+// function boardBuilder() {
+//     const board = React.createElement('div');
+
+//     const linesXRows = 3;
+
+//     for (let indexY = 0; indexY < linesXRows; indexY++) {
+
+//         const row = React.createElement('div', {className: 'board-row'});
+
+//         let cellIndex = 0;
+
+//         for (let indexX = 0; indexX < linesXRows; indexX++) {
+
+//             const square = renderSquare(cellIndex);
+
+//             const cell = React.createElement('div', square);
+//             row.appendChild(cell);
+
+//             cellIndex++;
+//         }
+
+//         board.appendChild(row);
+
+//     }
+
+//     return board;
+
+// }
